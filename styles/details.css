@@ -1,0 +1,42 @@
+.details {
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    gap: 30px;
+      }
+
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding: 1rem;
+    color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+    margin: .5rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+}
+
+.border {
+    border: 3px dotted goldenrod;
+}
+
+.detail-carditem {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.guest {
+    display:flex;
+    float: right;
+    position:sticky;
+    
+}
